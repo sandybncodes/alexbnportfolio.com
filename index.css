@@ -1,0 +1,494 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI';
+    user-select: none;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+
+body::after {
+    position: absolute;
+    background-image: url("live wallpapers/bg.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+nav {
+    top: 0;
+    /*position: fixed;*/
+    background-color: black;
+    color: #ddff8f;
+    width: 100%;
+    display: flex;
+    /*z-index: 1;*/
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-self: center;
+}
+
+nav img {
+    height: 50px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/*nav ul {
+    align-self: center;
+}*/
+
+nav ul section {
+    display: flex;
+}
+
+nav ul .right {
+    position: absolute;
+    float: right;
+    right: 30px;
+}
+
+nav ul li a {
+    color: #ddff8f/*rgb(163, 163, 163)*/;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #7fffd4;
+}
+
+nav ul li #vert-line {
+    color: rgb(163, 163, 163);
+    user-select: none;
+}
+
+nav ul li #vert-line:hover {
+    background-color: transparent;
+}
+
+nav ul .left li a:hover {
+    color: aquamarine;
+}
+
+/* main section */
+main {
+    color: white;
+    height: 100vh;
+    font-family: FreeMono, monospace;
+}
+
+main .main-objects {
+    /*margin-top: 100px;*/
+    /*padding: 20px;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+main #avatar {
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #ddff8f;
+    transition: 0.5s;
+}
+
+main #avatar:hover {
+    transform: scale(1.2);
+    border-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+main h1 {
+    font-size: 120px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+main i {
+    font-size: 30px;
+    color: #ddff8f;
+}
+
+main .main-buttons {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+main .main-buttons p {
+    font-size: 20px;
+}
+
+main .main-buttons i {
+    position: relative;
+    animation-name: td;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes td {
+    0% {top: 0;}
+    100% {top: 15px;}
+}
+
+/* section about me */
+#section-about {
+    background-color: #ddff8f;
+    color: black;
+    padding: 0;
+    text-align: center;
+}
+
+#section-about .flex_display {
+    display: flex;
+}
+
+.flex_display #div_1 {
+    background-color: black;
+    color: white;
+    padding: 35px;
+    flex-basis: 100%;
+    position: relative;
+    min-height: 500px;
+}
+
+.flex_display #div_1 img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+}
+
+.flex_display #div_1 #name {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.flex_display #div_1 #status {
+    color: #ddff8f;
+}
+
+.flex_display #div_1 #connect {
+    font-size: 20px;
+}
+
+.flex_display #div_1 #bottom_div {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flex_display #div_1 #bottom_div #list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex_display #div_1 #bottom_div #list a {
+    font-size: 30px;
+    color: #ddff8f;
+    transition: 0.5s;
+}
+
+.flex_display #div_1 #bottom_div #list a:hover {
+    color: white;
+}
+
+.flex_display #div_2 {
+    padding: 30px;
+    text-align: left;
+    flex-basis: 100%;
+}
+
+.flex_display #div_2 #sub-div {
+    width: 80%;
+    margin: auto;
+    padding: 5px;
+}
+
+.flex_display #div_2 #sub-div .period {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+.flex_display #div_2 #sub-div .period .year {
+    flex-basis: 50%;
+}
+
+.flex_display #div_2 #sub-div .period p {
+    padding: 5px;
+    flex-basis: 100%;
+    text-align: left;
+}
+
+.flex_display #div_2 #sub-div hr {
+    height: 1px;
+    border: 0;
+    background-color: black;
+}
+
+.flex_display #div_2 #sub-div #download-CV {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.flex_display #div_2 .title {
+    font-size: 18px;
+}
+
+.flex_display #div_2 #main_text {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+/* section hobbies */
+#section-hobbies {
+    background-color: #ddff8f;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+#section-hobbies h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+#section-hobbies hr {
+    height: 1px;
+    border: 0;
+    width: 70%;
+    background-color: black;
+}
+
+#section-hobbies section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-hobbies section div {
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#section-hobbies section div:hover {
+    transform: scale(1.1);
+}
+
+#section-hobbies section div i {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#section-hobbies section div h3 {
+    color: black;
+    margin-top: 5px;
+}
+
+/* section skills */
+#section-skills {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#section-skills h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+#section-skills hr {
+    width: 70%;
+    height: 1px;
+    border: 0;
+    background-color: white;
+}
+
+#section-skills #vertical-line {
+    background-color: white;
+    width: 1px;
+    height: 180px;
+    align-self: center;
+}
+
+#section-skills #details {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    padding: 10px;
+}
+
+#section-skills #details h3 {
+    color: #ddff8f;
+    text-align: left;
+    width: 200px;
+    margin: auto;
+}
+
+#section-skills #details ul {
+    list-style: none;
+    padding: 15px;
+    width: 200px;
+    margin: auto;
+    text-align: left;
+}
+
+#section-skills #details ul li {
+    font-size: 15px;
+    padding: 0 0 10px 0;
+    transition: 0.5s;
+}
+
+#section-skills #details ul li:hover {
+    color: #ddff8f;
+    list-style: circle;
+}
+
+/* section works */
+#section-works {
+    background-color: #ddff8f;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+#section-works h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+#section-works hr {
+    height: 1px;
+    border: 0;
+    width: 70%;
+    background-color: black;
+}
+
+#section-works #projects {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#section-works #projects a {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#section-works #projects a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+#section-works #projects a p, i {
+    margin: 0;
+}
+
+/* section contact */
+#section-contact {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
+
+#section-contact h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+#section-contact hr {
+    height: 1px;
+    border: 0;
+    width: 70%;
+    background-color: white;
+}
+
+#section-contact #social-media-list {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+}
+
+#section-contact #social-media-list a {
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#section-contact #social-media-list a:hover {
+    color: #ddff8f;
+}
+
+/*#section-contact #social-media-list #github:hover {
+    color: black;
+}
+
+#section-contact #social-media-list #tg:hover {
+    color: lightskyblue;
+}
+
+#section-contact #social-media-list #insta:hover {
+    color: lightsalmon;
+}
+
+#section-contact #social-media-list #linked:hover {
+    color: lightskyblue;
+}*/
+
+#section-contact p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
