@@ -1,0 +1,57 @@
+@media screen and (min-device-width: 767px) and (max-device-width: 1023px) {
+    nav ul li a {
+        font-size: 22px;
+    }
+
+    main #avatar {
+        height: 250px;
+    }
+    main i {
+        font-size: 32px;
+    }
+    main .main-buttons p {
+        font-size: 22px;
+    }
+    .flex_display #div_2 #sub-div .period {
+        font-size: 20px;
+    }
+    #section-skills #details {
+        grid-template-columns: repeat(2, auto);
+    }
+    #section-contact p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-device-width: 767px) {
+    nav ul li a {
+        font-size: 30px;
+    }
+    main #avatar {
+        height: 300px;
+    }
+    main i {
+        font-size: 35px;
+    }
+    main .main-buttons p {
+        font-size: 24px;
+    }
+    .flex_display #div_2 #sub-div .period {
+        font-size: 27px;
+    }
+    #section-about .flex_display {
+        display: block;
+    }
+    #section-skills #details {
+        grid-template-columns: repeat(2, auto);
+    }
+    #section-skills #details h3 {
+        font-size: 25px;
+    }
+    #section-skills #details ul li {
+        font-size: 25px;
+    }
+    #section-contact p {
+        font-size: 8px;
+    }
+}
