@@ -393,6 +393,7 @@ main .main-buttons i {
 
 #section-works h2 {
     font-size: 32px;
+    font-weight: normal;
     margin-bottom: 0;
 }
 
@@ -404,6 +405,59 @@ main .main-buttons i {
 }
 
 #section-works #projects {
+    display: flex;
+}
+
+#section-works #projects #resume {
+    background-image: url("images/resume.png");
+}
+
+#section-works #projects #journey {
+    background-image: url("images/journey.png");
+}
+
+#section-works #projects #construct{
+    background-image: url("images/construct.jpg");
+}
+
+#section-works #projects .items {
+    background-size: cover;
+    color: #ddff8f;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    flex-basis: 100%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#section-works #projects .items:hover {
+    color: white;
+}
+
+#section-works #projects .items div {
+    padding: 10px;
+    margin: 5px;
+}
+
+#section-works #projects div .links a {
+    padding: 7px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+#section-works #projects div .links a:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/*#section-works #projects {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -430,7 +484,7 @@ main .main-buttons i {
 
 #section-works #projects a p, i {
     margin: 0;
-}
+}*/
 
 /* section contact */
 #section-contact {

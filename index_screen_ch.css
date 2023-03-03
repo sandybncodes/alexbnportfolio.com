@@ -18,6 +18,10 @@
     #section-skills #details {
         grid-template-columns: repeat(2, auto);
     }
+    #section-works #projects {
+        display: grid;
+        grid-template-columns: auto;
+    }
     #section-contact p {
         font-size: 8px;
     }
@@ -50,6 +54,10 @@
     }
     #section-skills #details ul li {
         font-size: 25px;
+    }
+    #section-works #projects {
+        display: grid;
+        grid-template-columns: auto;
     }
     #section-contact p {
         font-size: 8px;
