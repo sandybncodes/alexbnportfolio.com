@@ -10,7 +10,7 @@ body {
 
 body::after {
     position: absolute;
-    background-image: url("live wallpapers/bg.gif");
+    background-image: url("images/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
