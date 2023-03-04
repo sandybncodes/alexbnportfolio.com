@@ -1,0 +1,25 @@
+body 
+{
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.text
+{
+	text-align: center;
+	padding: 10%;
+}
+.text h1 
+{
+	font-size: 120px;
+	font-family: Stencil;
+	color: #ff8500;
+}
+.text h3 
+{
+	font-size: 30px;
+	color: white;
+	margin-top: -5%;
+}
