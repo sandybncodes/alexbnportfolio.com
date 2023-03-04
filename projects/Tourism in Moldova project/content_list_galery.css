@@ -1,0 +1,88 @@
+#content-list
+{
+    padding: 10px;
+}
+
+#content-list #elements
+{
+    list-style-type: none;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.el
+{
+    height: 200px;
+    width: auto;
+    background-size: cover;
+    margin: 5px;
+    background-position: center;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.el:hover
+{
+    box-shadow: 0 0 10px black;
+}
+
+#el1
+{
+    background-image: url("images/image1.jpg");
+}
+
+#el2
+{
+    background-image: url("images/image2.jpg");
+}
+
+#el3
+{
+    background-image: url("images/image3.jpg");
+}
+
+#el4
+{
+    background-image: url("images/image4.jpg");
+}
+
+#el5
+{
+    background-image: url("images/image5.jpg");
+}
+
+#el6
+{
+    background-image: url("images/image6.jpg");
+}
+
+#el7
+{
+    background-image: url("images/image7.jpg");
+}
+
+#el8
+{
+    background-image: url("images/image8.jpg");
+}
+
+#el9
+{
+    background-image: url("images/image9.jpg");
+}
+
+#el10
+{
+    background-image: url("images/image10.jpg");
+}
+
+#el11
+{
+    background-image: url("images/image11.jpg");
+}
+
+#el12
+{
+    background-image: url("images/image12.jpg");
+}

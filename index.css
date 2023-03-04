@@ -447,6 +447,7 @@ main .main-buttons i {
     color: white;
     border-radius: 5px;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 #section-works #projects div .links a:hover {
@@ -524,22 +525,6 @@ main .main-buttons i {
 #section-contact #social-media-list a:hover {
     color: #ddff8f;
 }
-
-/*#section-contact #social-media-list #github:hover {
-    color: black;
-}
-
-#section-contact #social-media-list #tg:hover {
-    color: lightskyblue;
-}
-
-#section-contact #social-media-list #insta:hover {
-    color: lightsalmon;
-}
-
-#section-contact #social-media-list #linked:hover {
-    color: lightskyblue;
-}*/
 
 #section-contact p {
     color: white;

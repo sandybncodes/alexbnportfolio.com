@@ -1,0 +1,116 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-color: black;
+}
+
+body::after
+{
+    content: "";
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#content
+{
+    padding: 20px;
+    text-align: center;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+#content #title
+{
+    display: flex;
+    justify-content: center;
+}
+
+#content span
+{
+    text-shadow: 0 0 5px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: white;
+}
+
+#content p
+{
+    color: white;
+    font-style: italic;
+    text-shadow: 0 0 10px black;
+    font-size: 20px;
+    padding: 10px;
+    user-select: none;
+}
+
+#content #read_btn
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#content #read_btn:hover
+{
+    background-color: rgba(0, 0, 0, 1);
+    color: aqua;
+}
+
+@media only screen and (max-device-width: 700px) and (min-device-width: 200px)
+{
+    #content span
+    {
+        font-size: 200px;
+    }
+
+    #content p
+    {
+        font-size: 40px;
+    }
+
+    #content #read_btn
+    {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-device-width: 1000px) and (min-device-width: 700px)
+{
+    #content span
+    {
+        font-size: 150px;
+    }
+
+    #content p
+    {
+        font-size: 30px;
+    }
+
+    #content #read_btn
+    {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,106 @@
+#form_section
+{
+    /*background-color: rgb(29, 29, 29);*/
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#form_section fieldset
+{
+    border-radius: 10px;
+}
+
+#form_section h2
+{
+    color: white;
+}
+
+#form_section
+{
+    color: whitesmoke;
+}
+
+#form_section legend
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+#form_section #pers_inf_section
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+}
+
+#form_section #pers_inf_section span
+{
+    padding: 10px;
+    /*margin: auto;*/
+}
+
+#form_section #pers_inf_section span label
+{
+    font-size: 20px;
+    /*padding: 5px;*/
+}
+
+#form_section #pers_inf_section span .input-box
+{
+    width: 400px;
+}
+
+#form_section #pers_inf_section span input, select
+{
+    font-size: /*15px*/ 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+}
+
+@media only screen and (max-device-width: 700px) and (min-device-width: 500px)
+{
+    #form_section #pers_inf_section
+    {
+        grid-template-columns: auto;
+    }
+
+    #form_section #pers_inf_section span label 
+    {
+        font-size: 30px;
+    }
+
+    #form_section #pers_inf_section span .input-box
+    {
+        width: 500px;
+    }
+
+    #form_section #pers_inf_section span input, select 
+    {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) and (min-device-width: 300px)
+{
+    #form_section #pers_inf_section
+    {
+        grid-template-columns: auto;
+    }
+
+    #form_section #pers_inf_section span label 
+    {
+        font-size: 35px;
+    }
+
+    #form_section #pers_inf_section span .input-box
+    {
+        width: 600px;
+    }
+
+    #form_section #pers_inf_section span input, select 
+    {
+        font-size: 35px;
+    }
+}

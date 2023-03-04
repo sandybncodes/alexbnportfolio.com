@@ -1,0 +1,21 @@
+#icons
+{
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+}
+#icons a 
+{
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#icons a:hover 
+{
+    color: black;
+    background-color: white;
+}
