@@ -1,0 +1,23 @@
+body {
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+/*===================== Section 2 ==================================*/
+.s2 
+{
+  padding: 20px;
+}
+.livrare {
+  text-align: justify;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+.livrare p {
+  font-size: 20px;
+}
+/*===================== End of Section 2 ==========================*/

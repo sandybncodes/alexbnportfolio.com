@@ -1,0 +1,53 @@
+body {
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+/*===================== Section 2 ==================================*/
+.s2 
+{
+  padding: 20px;
+}
+.locatie {
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+.locatie h3 {
+  font-size: 30px;
+  color: #ff8500;
+}
+.locatie table {
+  width: 100%;
+  font-size: 20px;
+  color: white;
+}
+.locatie img {
+  width: 1000px;
+  height: 450px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: black;
+}
+.locatie img:hover {
+  box-shadow: 0 0 5px #ff8500,
+              0 0 10px #ff8500;
+}
+@media screen and (max-width: 1000px) {
+  .schimb h3 {
+  font-size: 25px;
+}
+.locatie table {
+  width: 90%;
+}
+.locatie img {
+  width: 650px;
+  height: 300px;
+}
+}
+/*===================== End of Section 2 ==========================*/

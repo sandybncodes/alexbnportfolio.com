@@ -1,0 +1,43 @@
+/*================== Section urmareste-ne =================================*/
+.section_urma
+{
+	padding: 30px;
+	text-align: center;
+}
+/*
+.urma {
+	background-color: transparent;
+}*/
+.urma a {
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+.urma a:hover {
+	background-color: #000;
+}
+.urma a i {
+	width: 50px;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.instagram {
+  background: #125688;
+  color: white;
+}
+.gmail {
+  background: #dd4b39;
+  color: white;
+}
+.map {
+  background: #00b506;
+  color: white; 
+}
+/*================== End of Section urmareste-ne ==================*/

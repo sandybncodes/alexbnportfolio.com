@@ -1,0 +1,28 @@
+body {
+background-color: black;
+background: url("../Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+/*======================= Section 2 ====================================*/
+.s2 
+{
+  padding: 20px;
+  text-align: center;
+}
+.s2 .message
+{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+.s2 h1 {
+  font-size: 30px;
+  color: white;
+}
+.s2 img {
+  width: 320px;
+  height: 450px;
+}
+/*======================= End of Section 2 =============================*/

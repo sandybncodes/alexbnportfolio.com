@@ -1,0 +1,29 @@
+body {
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+/*==================================== Section 2 ===============================*/
+.s2 
+{
+  padding: 20px;
+}
+.schimb {
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+.schimb h3 {
+  font-size: 30px;
+  color: #ff8500;
+}
+.schimb table {
+  font-size: 20px;
+  color: white;
+}
+/*====================================== End of Section 2 ========================*/

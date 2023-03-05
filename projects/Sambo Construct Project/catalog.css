@@ -1,0 +1,199 @@
+body 
+{
+  background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+/*.text { 
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+.text h1 {
+  font-size: 50px;
+}*/
+/*========================================= Section 2 ===============================*/
+.s2 {
+  background-color: transparent; /*#ededed*/
+  padding: 5%;
+}
+.s2 .categorii {
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+.s2 .categorii a {
+  color: black;
+  text-align: center;
+  display: inline-block;
+  width: 300px;
+  text-decoration: none;
+  background-color: #ededed;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px black,
+              0 0 10px black;
+}
+.s2 .categorii a:hover {
+  box-shadow: 0 0 5px #ff8500,
+              0 0 10px #ff8500;
+  transition: all 0.3s ease;
+}
+/*======================= End of Section 2 =============================*/
+/*
+======================= Section parteneri ===========================
+.parteneri {
+  background-color: white;
+  width: 100%;
+  height: 129px;
+}
+.parteneri .scroll-menu {
+  overflow: auto;
+    white-space: nowrap;
+    padding-top: 5px;
+}
+.parteneri .scroll-menu a {
+  display: inline-block;
+  text-align: center;
+    text-decoration: none;
+}
+.parteneri .scroll-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+    background-color: transparent;
+}
+
+.parteneri .scroll-menu::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.parteneri .scroll-menu::-webkit-scrollbar-thumb {
+    background-color: #ff8500;
+    border-radius: 2px;
+}
+======================= End of Section parteneri ====================
+
+======================= Section 3 ================================== 
+.s3 {
+  background-color: #242f31;
+  width: 100%;
+  height: 360px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+=============================== Footer_Menu =======================
+.footer {
+  position: relative;
+}
+.row {
+  color: white;
+  display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer .title {
+  text-transform: uppercase;
+  margin-left: 10%;
+  color: #ff8500;
+}
+.content a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.content a:hover {
+  color: #ff8500;
+}
+.content .list li {
+  padding: 5px;
+}
+.categorii .content ul {
+  columns: 2;
+}
+@media screen and (max-width: 1000px) {
+  .row {
+    display: block;
+  }
+  .footer {
+    padding-top: 2%;
+  }
+  .footer .title {
+    margin-left: 3%;
+  }
+  .content a{
+  font-size: 22px;
+  }
+  .s3 {
+    height: 1000px;
+  }
+}
+=============================== End Of Footer_Menu ======================
+================== End of Section 3 =============================
+
+================== Section urmareste-ne =================================
+.urma {
+  background-color: #242f31;
+  width: 100%;
+  height: 120px;
+  margin-top: -1%;
+}
+.urma .linie {
+  height: 2px;
+  background-color: #ff8500;
+}
+.urma p {
+  margin-top: 30px;
+  text-align: center;
+}
+.urma p b {
+  font-size: 30px;
+  color: #ff8500;
+}
+.urma p a {
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 25px;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+.urma p a:hover {
+  background-color: #000;
+}
+.urma p a i {
+  width: 50px;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.instagram {
+  background: #125688;
+  color: white;
+}
+.gmail {
+  background: #dd4b39;
+  color: white;
+}
+.map {
+  background: #00b506;
+  color: white; 
+}
+================== End of Section urmareste-ne ==================
+*/

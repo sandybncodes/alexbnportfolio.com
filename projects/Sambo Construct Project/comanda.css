@@ -1,0 +1,32 @@
+body {
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+/*===================== Section 2 ==================================*/
+.s2 
+{
+  padding: 20px;
+}
+.comanda 
+{
+  text-align: justify;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 10px;
+}
+.comanda p {
+  font-size: 20px;
+  color: white;
+}
+.comanda a {
+  text-decoration: none;
+  color: white;
+}
+.comanda a:hover {
+  color: #ff8500;
+}
+/*===================== End of Section 2 ==========================*/

@@ -1,0 +1,56 @@
+body {
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+/*========================================= Section 2 ===============================*/
+.section_s2
+{
+  padding: 20px;
+}
+.s2 {
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+.s2 .retele {
+  text-align: center;
+}
+.s2 .retele h3 {
+  font-size: 30px;
+}
+.s2 .retele .fa-facebook {
+  font-size: 30px; 
+  padding-left: 5px; 
+  text-decoration: none;
+  color: white;
+}
+.s2 .retele .fa-facebook:hover {
+  color: #3B5998;
+}
+.s2 .retele .fa-instagram {
+  font-size: 30px; 
+  padding-left: 5px; 
+  text-decoration: none;
+  color: white;
+}
+.s2 .retele .fa-instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.s2 .retele .fa-envelope {
+  font-size: 30px;
+  font-weight: normal;
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+.s2 .retele .fa-envelope:hover {
+  color: #e32424;
+}
+/*======================= End of Section 2 =============================*/

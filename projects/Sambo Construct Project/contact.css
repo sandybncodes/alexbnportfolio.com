@@ -1,0 +1,46 @@
+body {
+background-color: black;
+background: url("Imagini/SamboConstructBackground.png");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.section_s2
+{
+	padding: 20px;
+}
+.s2 {
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px;
+	padding: 20px;
+}
+.s2 .table1 {
+	margin-top: 1%;
+	margin-left: 20%;
+	color: white;
+}
+.s2 .table1 p {
+	text-align: left;
+}
+.s2 .director {
+	/*margin-top: 3%;*/
+	box-shadow: 0 0 5px #ff8500,
+				0 0 10px #ff8500;
+	border-radius: 10px;
+	color: white;
+	width: 80%;
+	padding: 10px;
+}
+.s2 .director img {
+	width: 150px;
+	height: 150px;
+}
+.s2 .director h3 a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.s2 .director h3 a:hover {
+	color: #ff8500;
+}
+/*======================= End of Section 2 ============================*/

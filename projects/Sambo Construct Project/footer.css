@@ -1,0 +1,53 @@
+/*======================= Section 3 ================================== */
+.section_s3
+{
+	padding: 20px;
+}
+.s3 {
+	background-color: /*#242f31*/ rgba(0,0,0,0.7);
+	overflow: hidden;
+	border-radius: 10px;
+}
+/*=============================== Footer_Menu =======================*/
+.footer {
+	position: relative;
+}
+.row {
+	color: white;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer .title {
+	text-transform: uppercase;
+	margin-left: 10%;
+	color: #ff8500;
+}
+.content a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.content a:hover {
+	color: #ff8500;
+}
+.content .list li {
+	padding: 5px;
+}
+.categorii .content ul {
+	columns: 2;
+}
+@media screen and (max-width: 1000px) {
+  .row {
+    display: block;
+  }
+  .categorii .content ul {
+	columns: 1;
+}
+}
+/*=============================== End Of Footer_Menu =================*/
+/*=============================== End Of Section 2 =================*/

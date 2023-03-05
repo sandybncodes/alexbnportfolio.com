@@ -1,0 +1,47 @@
+/*======================= Suport client ============================*/
+.section_s2
+{
+	padding: 20px;
+}
+.s2 {
+	background-color: /*#242f31*/ rgba(0,0,0,0.7);
+	top: 0;
+	text-align: center; 
+	color: #ededed;
+	letter-spacing: 1px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border-radius: 10px;
+}
+.s2 h1{
+	color: #ededed;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: Tahoma;
+	letter-spacing: 2px;
+}
+.s2 .phone {
+	text-decoration: none;
+	color: #ededed;
+	font-size: 18px;
+	padding-right: 50px;
+	letter-spacing: 1px;
+}
+.s2 .phone:hover {
+	color: #ff8500;
+}
+.s2 .fa-phone {
+	color: #ccbf35;
+}
+.s2 .fa-envelope {
+	color: #dd4b39;
+}
+.s2 h2 {
+	font-family: Calibri;
+	font-size: 22px;
+}
+.s2 p {
+	font-family: Calibri;
+	font-size: 17px;
+}
+/*======================= End of Suport client ============================*/
