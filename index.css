@@ -458,6 +458,66 @@ main .main-buttons i {
     border-width: 1px;
 }
 
+#section-courses {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+#section-courses h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+#section-courses hr {
+    height: 1px;
+    border: 0;
+    width: 70%;
+    background-color: white;
+}
+
+#section-courses #sql-course {
+    background: url("images/sql_bg.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    filter: grayscale(1);
+    transition: 0.5s;
+    padding: 10px;
+}
+
+#section-courses #sql-course a {
+    font-size: 20px;
+    text-decoration: none;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: none;
+    transition: 0.5s;
+}
+
+#section-courses #sql-course a:hover {
+    background-color: white;
+    color: black;
+}
+
+#section-courses #sql-course:hover a {
+    display: block;
+}
+
+#section-courses #sql-course:hover {
+    filter: grayscale(0);
+}
+
 /*#section-works #projects {
     display: flex;
     justify-content: center;

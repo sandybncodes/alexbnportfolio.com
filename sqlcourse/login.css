@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI';
+    user-select: none;
+}
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body::after {
+    position: absolute;
+    background-image: url("../images/login_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#login-form {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#login-form img {
+    height: 80px;
+    border-radius: 50%;
+}
+
+#login-form input {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: gainsboro;
+}
+
+#login-form input::placeholder {
+    color: gray;
+}
+
+#login-form button {
+    width: 300px;
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0;
+    background-color:dimgray;
+    color: white;
+    transition: 0.5s;
+}
+
+#login-form button:hover {
+    background-color: white;
+    color: black;
+}
+
+#login-form #message {
+    color: red;
+}
