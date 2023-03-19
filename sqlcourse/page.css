@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI';
+    user-select: none;
+}
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#main {
+    text-align: center;
+    padding: 10px;
+}
+
+#course-list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+#course-list .item {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin: 5px;
+}
+
+#course-list .item:visited {
+    text-decoration: none;
+}
+
+#course-list .item:hover {
+    filter: grayscale(1);
+}
+
+#course-list #day1 {
+    background: url(../images/day1.jpg);
+    background-size: cover;
+}
+
+#course-list #day2 {
+    background: url(../images/day2.jpg);
+    background-size: cover;
+}
+
+#course-list .item #title {
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#course-list .item #title h2 {
+    font-size: 20px;
+}
+
+#course-list .item #title h2, p {
+    margin: 0;
+    color: black;
+}
