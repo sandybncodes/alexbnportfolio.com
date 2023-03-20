@@ -31,8 +31,12 @@ body::after {
 
 #login-form {
     padding: 10px;
-    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
     text-align: center;
+    backdrop-filter: blur(20px);
 }
 
 #login-form img {
