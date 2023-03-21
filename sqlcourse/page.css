@@ -15,8 +15,9 @@ body {
 }
 
 #course-list {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    flex-wrap: wrap;
+    /*grid-template-columns: repeat(3, auto);*/
     justify-content: space-evenly;
     padding: 10px;
     margin-top: 50px;
@@ -27,7 +28,8 @@ body {
 }
 
 #course-list .item {
-    width: 300px;
+    flex-basis: auto;
+    width: 30%;
     height: 200px;
     display: flex;
     align-items: flex-end;
@@ -55,6 +57,11 @@ body {
 
 #course-list #day2 {
     background: url(../images/day2.jpg);
+    background-size: cover;
+}
+
+#course-list #day3, #day4, #day5, #day6, #day7 {
+    background: url(../images/soon.jpg);
     background-size: cover;
 }
 
