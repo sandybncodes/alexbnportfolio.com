@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title> Lectia 2. Crearea unei baze de date. </title>
+
+        <!-- title icon -->
+        <link rel="icon" href="../images/logo.png" type="image/icon type">
+
+        <!-- css links -->
+        <link rel="stylesheet" type="text/css" href="lesson.css">
+    </head>
+<body>
+    <h2> Despre ce vom discuta azi: </h2>
+    <ul>
+        <li>
+            <a href="#q1"> Crearea unei baze de date in SQL Server </a>
+        </li>
+        <li>
+            <a href="#q2"> Cuvantul cheie "USE" </a>
+        </li>
+        <li>
+            <a href="#q3"> Crearea tabelelor intr-o baza de date </a>
+        </li>
+        <li>
+            <a href="#q4"> Tipuri de date in SQL </a>
+        </li>
+        <li>
+            <a href="#q5"> Legaturile intre tabele </a>
+        </li>
+        <li>
+            <a href="#q6"> Stergerea unui tabel </a>
+        </li>
+        <li>
+            <a href="#q7"> Diagrama unei baze de date. Diagrama Entitate-Relatie </a>
+        </li>
+    </ul>
+    <hr>
+
+    <h2 id="q1"> Crearea unei baze de date </h2>
+    <p> Dupa cum am discutat la lectia anterioara, vom folos instrumentul SQL Server Management Studio pentru a crea, 
+        manipula, modificare si pentru a face diferite operatii asupra unei baze de date.
+    </p>
+    <p> Pentru inceput ne conectam la serverul local. SQL Server Management Studio automat va detecta numele serverului,
+        in cazul dat, serverul va fi computerul nostru. Pentru a crea o baza de date urmariti pasii de mai jos:
+    </p>
+    <ol>
+        <li> 
+            Click pe butonul [New Query]. 
+            <br>
+            <img src="../images/new_query.png">
+        </li>
+        <li>
+            Va aparea o astfel de fereastra:
+            <br>
+            <img src="../images/new_query_window.png">
+        </li>
+        <li>
+            Aici scrim codul care va crea baza de date:
+            <br>
+            <img src="../images/create_db_code.png">
+        </li>
+        <li>
+            Executam aceasta interogare. Pentru a executa aceasta interograre, sau orice alta interogare,
+            selectam codul pe care vrem sa il executam si dam click pe butonul [Execute]:
+            <br>
+            <img src="../images/exec_code.png">
+        </li>
+        <li>
+            Observam ca interogare a fost executata cu succes:
+            <br>
+            <img src="../images/success_execute.png">
+        </li>
+        <li>
+            Pentru a vedea daca baza de date a fost creata, click pe folderul [Databases] din meniul din stanga (Object Explorer),
+            apoi click pe butonul [Refresh] pentru a face refresh la date:
+            <br>
+            <img src="../images/refresh.png">
+        </li>
+        <li>
+            Observam ca baza de date a fost creata:
+            <br>
+            <img src="../images/angajatiDB.png">
+        </li>
+    </ol>
+</body>
+</html>

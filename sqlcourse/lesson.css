@@ -60,3 +60,12 @@ img {
 video {
     width: 500px;
 }
+
+code {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+code .key {
+    color: blue;
+}
