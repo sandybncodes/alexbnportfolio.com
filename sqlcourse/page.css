@@ -60,7 +60,12 @@ body {
     background-size: cover;
 }
 
-#course-list #day3, #day4, #day5, #day6, #day7 {
+#course-list #day3 {
+    background: url(../images/day3.jpg);
+    background-size: cover;
+}
+
+#course-list #day4, #day5, #day6, #day7 {
     background: url(../images/soon.jpg);
     background-size: cover;
 }
